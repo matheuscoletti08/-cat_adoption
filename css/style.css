@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffeef8;
+}
+  
+.textAd, .textDes {
+    color: #e68bbe;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    
+}
+
+.textDes{
+    margin: 0px 0px 40px 0px;
+}
+
+img{
+    margin: 0px 20px 20px 0px;
+    width: 300px;
+}
+
+.menuButton {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #eea1cd;
+    color: #fff;
+    border: solid 4px #f9cee7;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin: 30px auto;
+    transition: 0.2s;
+    border-radius: 12px;
+
+}
+
+.menuButton:hover {
+    width: 220px;
+    height: 70px;
+    background-color: #e68bbe;
+    transition: 0.2s ease-in-out;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cat {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s ease-in-out;
+}
+  
+.cat:hover {
+    transform: rotate(5deg);
+    width: 220px;
+    height: 220px;
+    transition: 0.2s ease-in-out;
+} 
+
+
+.cat-name {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #e68bbe;
+    background-color:  	#f9cee7;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+    transition: 0.3s ease;
+}
+  
+.infoCat{
+    color: #e68bbe;
+}
+
+.genderm{
+    color: royalblue;
+}
+
+.genderf{
+    color: #bf1c78;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #eea1cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .back-button:hover {
+    background-color: #e68bbe;
+    transition: 0.2s ease-in-out;
+  }
+  
